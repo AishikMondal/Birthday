@@ -47,8 +47,7 @@ h3{
   padding-bottom: 15px;
 }
 .bd{
-  color:hotpink;
-
+  color: #FF69B4;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -74,6 +73,8 @@ h3{
   transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
   text-align: center;
   font-family: 'elephant';
+  box-shadow: 6px 6px 6px rgba(2, 2,5,0.7);
+  border-radius: 50%;
  
  
 text-align: center;
@@ -116,7 +117,7 @@ img{
   font-weight: bold;
   color:#63FFD7;
   font-weight:1000;
-  top: 500px;
+  top: 550px;
   border-left: 5px dashed #20FF00;
   border-right: 5px dashed #20FF00;
   text-align: center;
