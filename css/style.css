@@ -47,7 +47,7 @@ h3{
   padding-bottom: 15px;
 }
 .bd{
-  color:;
+  color:hotpink;
 
   position: relative;
   display: flex;
@@ -101,7 +101,7 @@ text-align: center;
 img{
   position: absolute;
   display: flex;
-  top: 300px;
+  top: 275px;
   border: 4px gray;
   border-radius: 50%;
  z-index: 3;
