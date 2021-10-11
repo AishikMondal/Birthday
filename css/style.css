@@ -1,20 +1,21 @@
-/* Add all your styles here */
 body{
   display: flex;
   align-items: center;
   justify-content: center;
    width: 100%;
    width: 350px;
+
 } 
 h3{
   position: absolute;
+  text-align: center;
   top: -1px;
   background-color: #FF0063;
   color:#09FF00;
   border-right:5px dotted #00FFF9;
   border-left:5px dotted #00FFF9;
   border-radius: 70px 0px 70px 0;
- left: 40%;
+ 
 }  
 
 .head{
@@ -46,7 +47,7 @@ h3{
   padding-bottom: 15px;
 }
 .bd{
-  color: #05FF9EE0;
+  color:;
 
   position: relative;
   display: flex;
@@ -66,11 +67,14 @@ h3{
 
 .name {
   color: #0077C7;
+  background-color: #FF9932FC;
+
   position: relative;
   font-size: 20px;
   transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'elephant';
+ 
  
 text-align: center;
  text-shadow: 6px 10px 7px #000000;
@@ -101,6 +105,7 @@ img{
   border: 4px gray;
   border-radius: 50%;
  z-index: 3;
+ 
 
   
 }
@@ -109,7 +114,8 @@ img{
   display: flex;
   font-family: cursive;
   font-weight: bold;
-  color:#FF8000;
+  color:#63FFD7;
+  font-weight:1000;
   top: 500px;
   border-left: 5px dashed #20FF00;
   border-right: 5px dashed #20FF00;
@@ -121,7 +127,7 @@ img{
   width: 100%;
   font-size: 21px;
   display: inline-block;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
  }
 .both{
  display: flex;
