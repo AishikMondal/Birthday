@@ -3,7 +3,6 @@ body{
   align-items: center;
   justify-content: center;
    width: 100%;
-   width: auto;
 
 } 
 
@@ -67,7 +66,7 @@ h3{
 
 .name {
   color: #000000;
-
+  left: -10px;
   position: relative;
   top:-50px;
   font-size: 20px;
@@ -132,6 +131,7 @@ img{
   font-size: 21px;
   display: inline-block;
   letter-spacing: 4px;
+  z-index: 4;
  }
 .both{
  display: flex;
@@ -153,10 +153,24 @@ img{
   display: block;
   letter-spacing: 0px; 
 }
-button{
+a button{
   position: absolute;
-  top: 600px;
-  display: inline-block;
-  left: 30%;
-  
+  text-align: center;
+  top:600px;
+  left: 110px;
+}
+@media (min-width:400px){
+  .name{
+    position: absolute;
+    left: 65%;
+}
+a button{
+  left: 42%;
+}
+.date{
+  left: -110px;
+}
+h3{
+  z-index: 10;
+}
 }
